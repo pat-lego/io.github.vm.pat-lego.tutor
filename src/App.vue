@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div class="h-screen flex flex-col">
     <Nav :navItems="navItems" />
-    <router-view />
-    <span>Test</span>
+    <main class="w-full flex-1">
+      <router-view />
+    </main>
     <Footer :text="'Rockland Tutor Inc.'" />
   </div>
 </template>
@@ -31,7 +32,7 @@ export default {
 </script>
 <style>
 #app {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 </style>

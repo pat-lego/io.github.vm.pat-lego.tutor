@@ -1,3 +1,9 @@
 module.exports = {
-    outputDir: 'docs'
+    outputDir: 'docs',
+    pages: {
+        index: {
+            entry: 'src/main.js',
+            title: 'Rockland Tutors'
+        }
+    }
 }

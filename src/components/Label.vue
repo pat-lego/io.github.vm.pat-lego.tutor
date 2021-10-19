@@ -1,8 +1,8 @@
 <template>
-    
+  <div></div>
 </template>
 <script>
 export default {
-    name: 'Label'   
-}
+  name: "Label",
+};
 </script>

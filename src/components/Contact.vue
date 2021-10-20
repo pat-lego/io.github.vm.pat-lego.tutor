@@ -13,7 +13,7 @@
         text-xl
       "
     >
-      <span class="p-1 underline">Phone Number</span>
+      <span class="p-1 underline">Phone Number:</span>
       <span class="p-1">613-914-2477</span>
     </div>
     <div
@@ -27,7 +27,7 @@
         text-xl
       "
     >
-      <span class="p-1 underline">Email</span>
+      <span class="p-1 underline">Email:</span>
       <span class="p-1"><a href="mailto:patrique.legault@gmail.com">patrique.legault@gmail.com</a></span>
     </div>
   </div>

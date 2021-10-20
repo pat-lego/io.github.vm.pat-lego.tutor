@@ -1,10 +1,10 @@
 <template>
   <div class="h-screen w-full flex flex-col">
     <Nav :navItems="navItems" />
-    <main class="w-full flex-1">
+    <main class="flex flex-col h-full w-full flex-1">
       <router-view />
     </main>
-    <Footer :text="'Rockland Tutor'" />
+    <Footer :text="'Rockland Tutors'" />
   </div>
 </template>
 <script>

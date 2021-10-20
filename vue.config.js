@@ -5,5 +5,5 @@ module.exports = {
             entry: 'src/main.js',
             title: 'Rockland Tutors',
         },
-    },
+    }
 }

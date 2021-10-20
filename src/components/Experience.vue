@@ -7,7 +7,7 @@
       have been working in the world of high tech for over 10 years. Now I am
       starting a new venture in the field of education. I am looking to provide help to
       students and adults who are looking to gain knowledge and understanding in either
-      topics in Mathematics or Computer Science.
+      topics of Mathematics or Computer Science.
     </span>
     <div class="pl-6 mb-1">
       <span

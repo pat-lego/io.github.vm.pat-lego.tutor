@@ -6,9 +6,15 @@
     <div class="flex">
       <Topics />
     </div>
-    <div class="flex flex-col lg:flex-row w-full p-4">
-      <Location class="flex w-full h-auto lg:w-1/2 lg:mr-6 mb-10 lg:mb-0" />
-      <Cost class="flex w-full lg:h-20 lg:w-1/3" />
+    <div class="flex flex-col lg:flex-row w-full p-2">
+      <Location class="flex w-full h-auto lg:w-1/2 mb-1 lg:mr-6" />
+      <div class="flex flex-col lg:w-1/3">
+        <Cost class="mb-1 lg:m-1" />
+        <Experience class="mb-1 lg:m-1" />
+      </div>
+    </div>
+    <div class="flex">
+      <Contact />
     </div>
   </div>
 </template>
@@ -16,6 +22,8 @@
 import Topics from '@/components/Topics.vue'
 import Location from "@/components/Location.vue"
 import Cost from "@/components/Cost.vue"
+import Experience from "@/components/Experience.vue"
+import Contact from "@/components/Contact.vue"
 
 export default {
   name: "Home",
@@ -23,6 +31,8 @@ export default {
     Topics,
     Location,
     Cost,
+    Experience,
+    Contact,
   },
 };
 </script>

@@ -1,8 +1,6 @@
 <template>
-  <div class="flex flex-col rounded border-2 border-black p-2 pb-6 shadow-lg">
-    <iframe v-if="mapsKey"
-      width="100%"
-      height="100%"
+  <div class="flex flex-col rounded border-2 border-black p-2 mb-1  shadow-lg">
+    <iframe class="lg:h-80" v-if="mapsKey"
       frameborder="0"
       style="border: 0"
       :src="'https://www.google.com/maps/embed/v1/place?key='+ mapsKey + '&q=242+Jasper+Crescent,Rockland+Ontario+Canada'"

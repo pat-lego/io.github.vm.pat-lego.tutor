@@ -1,15 +1,38 @@
 <template>
-  <div class="flex flex-col rounded border-2 border-black p-2 pb-6 shadow-lg">
+  <div class="flex flex-col rounded border-2 border-black p-2 shadow-lg">
     <span class="text-xl">Experience</span>
     <span class="pl-6 mb-1"
-      >All of our tutors have either a post secondary degree or certificate in
-      the topic that is being offered to you. We screen every tutor against our
-      offered topics in order to make sure that they are a good fit and can
-      provide the knowledge required to educate our clients.</span
-    >
-    <span class="pl-6"
-      >We teach various grades including post secondary, for more information please contact.</span
-    >
+      >My name is Patrique Legault, I have a Bachelors degree in Mathematics and
+      Computer Science as well as a Master's degree in eBusiness Technology. I
+      have been working in the world of high tech for over 10 years. Now I am
+      starting a new venture in the field of education. I am looking to provide help to
+      students and adults who are looking to gain knowledge and understanding in either
+      topics in Mathematics or Computer Science.
+    </span>
+    <div class="pl-6 mb-1">
+      <span
+        >Some of the topics that I have much expienrence are listed below:</span
+      >
+      <ul class="underline pl-10 list-disc">
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>Calculus</li>
+        <li>Algebra</li>
+        <li>Functions</li>
+                <li>JavaScript</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>Calculus</li>
+        <li>Algebra</li>
+        <li>Functions</li>        <li>JavaScript</li>
+        <li>Java</li>
+        <li>HTML/CSS</li>
+        <li>Calculus</li>
+        <li>Algebra</li>
+        <li>Functions</li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>

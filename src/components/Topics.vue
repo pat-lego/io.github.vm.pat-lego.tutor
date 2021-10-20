@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col lg:flex-row w-full bg-blue-900 h-auto p-4">
+  <div class="flex flex-col lg:flex-row w-full bg-blue-900 p-4">
     <div class="flex flex-col w-full justify-center items-center lg:flex-row lg:w-1/3 lg:justify-end">
       <span class="p-2 uppercase text-yellow-200 text-5xl"
         >Topics Include</span

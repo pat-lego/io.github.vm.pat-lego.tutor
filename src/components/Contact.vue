@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row lg:flex-row w-full bg-blue-900 h-auto p-4 text-yellow-200"
+    class="flex flex-col lg:flex-row lg:flex-row w-full bg-blue-900 p-4 text-yellow-200"
   >
     <div
       class="

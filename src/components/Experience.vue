@@ -20,17 +20,6 @@
         <li>Calculus</li>
         <li>Algebra</li>
         <li>Functions</li>
-                <li>JavaScript</li>
-        <li>Java</li>
-        <li>HTML/CSS</li>
-        <li>Calculus</li>
-        <li>Algebra</li>
-        <li>Functions</li>        <li>JavaScript</li>
-        <li>Java</li>
-        <li>HTML/CSS</li>
-        <li>Calculus</li>
-        <li>Algebra</li>
-        <li>Functions</li>
       </ul>
     </div>
   </div>

@@ -25,6 +25,10 @@ export default {
           name: "Home",
           route: "/",
         },
+        {
+          name: "Courses",
+          route: "/courses",
+        }
       ],
     };
   },
@@ -34,5 +38,4 @@ export default {
 #app {
   font-family: "Ubuntu", sans-serif;
 }
-
 </style>

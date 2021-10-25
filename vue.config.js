@@ -3,7 +3,7 @@ module.exports = {
     pages: {
         index: {
             entry: 'src/main.js',
-            title: 'Rockland Tutors',
+            title: 'Courses by pat-lego',
         },
     }
 }

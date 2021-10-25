@@ -10,7 +10,7 @@
       <CourseContent
         class="mb-2"
         :title="'Web Development'"
-        :content="content.java"
+        :content="content.webdev"
       />
       <CourseContent
         class="mb-2"

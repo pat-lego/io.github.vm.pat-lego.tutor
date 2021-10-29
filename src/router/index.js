@@ -1,17 +1,20 @@
 import { createWebHashHistory, createRouter } from "vue-router";
-import Home from "@/views/Home.vue"
-import Courses from "@/views/Courses.vue"
+
+// Hot module loading within the application
+function lazyLoad(view){
+  return() => import(`@/views/${view}.vue`)
+}
 
 const routes = [
     {
       path: "/",
       name: "Home",
-      component: Home,
+      component: lazyLoad('Home'),
     },
     {
       path: "/courses",
       name: "Courses",
-      component: Courses,
+      component: lazyLoad('Courses'),
     },
   ];
   
